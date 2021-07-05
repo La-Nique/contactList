@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		717B6E6D2692BAD2004680E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717B6E6C2692BAD2004680E0 /* main.cpp */; };
+		717B6E792692BAF3004680E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717B6E762692BAF3004680E0 /* main.cpp */; };
+		717B6E7A2692BAF3004680E0 /* binarytree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717B6E782692BAF3004680E0 /* binarytree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		717B6E692692BAD2004680E0 /* contactList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = contactList; sourceTree = BUILT_PRODUCTS_DIR; };
-		717B6E6C2692BAD2004680E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		717B6E692692BAD2004680E0 /* contactList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = contactList; path = /Users/pitasonraniku/Desktop/programming/ProjectFiles/Project4_Contactlist/contactList/build/Debug/contactList; sourceTree = "<absolute>"; };
+		717B6E752692BAF2004680E0 /* binarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
+		717B6E762692BAF3004680E0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		717B6E782692BAF3004680E0 /* binarytree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binarytree.cpp; sourceTree = "<group>"; };
+		717B6E7D2692BD00004680E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +45,19 @@
 		717B6E602692BAD2004680E0 = {
 			isa = PBXGroup;
 			children = (
-				717B6E6B2692BAD2004680E0 /* contactList */,
-				717B6E6A2692BAD2004680E0 /* Products */,
+				717B6E7D2692BD00004680E0 /* README.md */,
+				717B6E7C2692BC72004680E0 /* New Group */,
+				717B6E782692BAF3004680E0 /* binarytree.cpp */,
+				717B6E752692BAF2004680E0 /* binarytree.h */,
+				717B6E762692BAF3004680E0 /* main.cpp */,
 			);
 			sourceTree = "<group>";
 		};
-		717B6E6A2692BAD2004680E0 /* Products */ = {
+		717B6E7C2692BC72004680E0 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				717B6E692692BAD2004680E0 /* contactList */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		717B6E6B2692BAD2004680E0 /* contactList */ = {
-			isa = PBXGroup;
-			children = (
-				717B6E6C2692BAD2004680E0 /* main.cpp */,
-			);
-			path = contactList;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +102,7 @@
 				Base,
 			);
 			mainGroup = 717B6E602692BAD2004680E0;
-			productRefGroup = 717B6E6A2692BAD2004680E0 /* Products */;
+			productRefGroup = 717B6E602692BAD2004680E0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -118,7 +116,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717B6E6D2692BAD2004680E0 /* main.cpp in Sources */,
+				717B6E7A2692BAF3004680E0 /* binarytree.cpp in Sources */,
+				717B6E792692BAF3004680E0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
