@@ -1,6 +1,6 @@
 /****************************************************************************************************************************
 Title        : binarytree.h
-Author       :
+Author       : Lanique Peterson
 Description  : Header file for the BinaryTree class
 ****************************************************************************************************************************/
 #ifndef BINARYTREE_H
@@ -8,8 +8,11 @@ Description  : Header file for the BinaryTree class
 
 #include <string>
 
-struct ContactNode{
-    ContactNode(std::string contactName,std::string number){
+struct ContactNode
+{
+    ContactNode(std::string contactName,std::string number)
+    {
+    
     }
     std::string name;
     std::string phone;
@@ -17,7 +20,11 @@ struct ContactNode{
     ContactNode* right;
 };
 
-class BinaryTree{
+class BinaryTree
+{
+    private:
+        int size;
+    
     public:
 
         /**
