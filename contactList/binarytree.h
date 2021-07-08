@@ -12,7 +12,8 @@ struct ContactNode
 {
     ContactNode(std::string contactName,std::string number)
     {
-    
+        name = contactName;
+        phone = number;
     }
     std::string name;
     std::string phone;
@@ -29,19 +30,19 @@ class BinaryTree
 
         /**
         * Default Constructor 
-        * @param  None
-        * @return None
+        * @ param  None
+        * @ return None
         */
         BinaryTree();
 
         /**
-        * @param  None
+        * @ param  None
         * @return Returns the amount of contacts in our tree
         */
         int getSize();
 
         /**
-        * @param  None
+        * @ param  None
         * @return Returns the root node of the tree
         */
         ContactNode* getRoot();
@@ -64,7 +65,7 @@ class BinaryTree
 
         /**
         * @param  contactName The name of the contact we want to search for
-        * @param  newName   The name we want to update to, if passed an empty string do not update
+        * @ param  newName   The name we want to update to, if passed an empty string do not update
         * @param  newNumber   The new phone number we want to update to, if passed an empty string do not update
         * @return Returns a pointer to the node where the contactName matches
         *         Return NULL if contactName not in tree
@@ -72,7 +73,7 @@ class BinaryTree
         ContactNode* update(std::string contactName,std::string newNumber);
 
         /**
-        * @param  None
+        * @ param  None
         * @return Return a string with all the contact information in the tree, in sorted order
         *         If the tree is empty, return a empty string
         * Format:
@@ -101,8 +102,8 @@ class BinaryTree
        
         /**
         * Deconstructor - Should delete all heap allocated nodes
-        * @param  None
-        * @return None
+        * @ param  None
+        * @ return None
         */
         ~BinaryTree();
 
