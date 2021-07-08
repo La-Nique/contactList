@@ -46,19 +46,11 @@
 			isa = PBXGroup;
 			children = (
 				717B6E7D2692BD00004680E0 /* README.md */,
-				7180E4E52696B567008DA250 /* contactList */,
-				7180E4E426960B4C008DA250 /* contactList */,
-			);
-			sourceTree = "<group>";
-		};
-		7180E4E52696B567008DA250 /* contactList */ = {
-			isa = PBXGroup;
-			children = (
 				717B6E782692BAF3004680E0 /* binarytree.cpp */,
 				717B6E752692BAF2004680E0 /* binarytree.h */,
 				717B6E762692BAF3004680E0 /* main.cpp */,
+				7180E4E426960B4C008DA250 /* contactList */,
 			);
-			path = contactList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

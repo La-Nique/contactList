@@ -24,7 +24,8 @@ struct ContactNode
 class BinaryTree
 {
     private:
-        int size;
+        int size = 0;
+        BinaryTree* root = nullptr;
     
     public:
 
