@@ -8,7 +8,7 @@ Description  : Implementation file for the BinaryTree class
 
 BinaryTree::BinaryTree()
 {
-    root = nullptr;
+//    root = nullptr;
     size = 0;
 }
 
@@ -19,7 +19,7 @@ int BinaryTree::getSize() ///amount of contacts in our tree.
 
 ContactNode* BinaryTree::getRoot() ///returns the root node of the tree.
 {
-    
+    return root;
 }
 
 ContactNode* BinaryTree::insert(std::string contactName,std::string number) ///returns a pointer to the node generated; this node should be correctly placed in the tree; return NULL if contactName not in tree.

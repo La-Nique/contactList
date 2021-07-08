@@ -19,13 +19,14 @@ struct ContactNode
     std::string phone;
     ContactNode* left;
     ContactNode* right;
+
 };
 
 class BinaryTree
 {
     private:
         int size = 0;
-        BinaryTree* root = nullptr;
+        ContactNode* root = nullptr;
     
     public:
 
