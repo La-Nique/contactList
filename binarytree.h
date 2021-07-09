@@ -14,6 +14,7 @@ struct ContactNode
     {
         name = contactName;
         phone = number;
+        left = right = nullptr;
     }
     std::string name;
     std::string phone;
@@ -25,8 +26,8 @@ struct ContactNode
 class BinaryTree
 {
     private:
-        int size = 0;
-        ContactNode* root = nullptr;
+        int size;
+        ContactNode* root;
     
     public:
 
@@ -99,8 +100,8 @@ class BinaryTree
         * NOTE: The last character in your string should be a new line UNLESS the tree is empty
         * 
         */
-        std::string getSortedContactString();
-
+        std::string getSortedContactString(); ///we cannot change this method's intake.
+        std::string contactStringHelp(ContactNode* currentContact);
        
         /**
         * Deconstructor - Should delete all heap allocated nodes
