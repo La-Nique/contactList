@@ -101,7 +101,7 @@ class BinaryTree
         * 
         */
         std::string getSortedContactString(); ///we cannot change this method's intake.
-        std::string contactStringHelp(ContactNode* currentContact);
+        std::string contactStringHelp(ContactNode* currentContact); ///therefore, helper function was created!
        
         /**
         * Deconstructor - Should delete all heap allocated nodes
